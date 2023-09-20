@@ -1,0 +1,7 @@
+1)To develop a scalable threat model with connection to all dyanamic and chaning data + Logics (which are static to some extend)
+https://link.springer.com/article/10.1007/s10270-021-00898-7
+
+
+2) How to see problems around with mathematical eyes and create Math model and then solve it with Python code. You will feel it 
+
+I have a real data in g sheet. Now change that in to list in python, then create a function in python that tells me if i am financially prepared. 
