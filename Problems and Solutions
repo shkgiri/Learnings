@@ -3,7 +3,7 @@ https://link.springer.com/article/10.1007/s10270-021-00898-7
 
 Disecting PYTM - They use python class.
 
-2) Am i financially prepared Program
+2) Am i financially prepared Program 
 
 I am trying to develop "Am i prepared" with input from excel converted to list and from list as variable in to a mermaid Gaant chart using for loop. the final output is a gant chart + other logic applied to say "YES you are finanically great for 2025" etcc..
 
