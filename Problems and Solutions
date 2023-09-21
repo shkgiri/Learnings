@@ -6,6 +6,7 @@ Disecting PYTM - They use python class.
 2) Am i financially prepared Program 
 
 I am trying to develop "Am i prepared" with input from excel converted to list and from list as variable in to a mermaid Gaant chart using for loop. the final output is a gant chart + other logic applied to say "YES you are finanically great for 2025" etcc..
+//It seems there are limitations in Python list, where class is for rescue and that is applied in PYTM project. 
 
 3) How to see problems around with mathematical eyes and create Math model and then solve it with Python code. You will feel it 
 
