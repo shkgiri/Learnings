@@ -9,6 +9,14 @@ I am trying to develop "Am i prepared" with input from excel converted to list a
 //It seems there are limitations in Python list, where class is for rescue and that is applied in PYTM project. 
 //Try working with tuple, arrary or other data structures.
 
+Step 1 - Get excel data to list in python.
+https://docs.google.com/spreadsheets/d/1pAYwskrhIsrIg68RMWv3_AS5qjkXGiY3t4ts-Xxl4Yo/edit?usp=sharing
+
+Step2 - create MerStory with list variables.
+
+Step 3 - Chart it the way you wish.
+
+
 3) How to see problems around with mathematical eyes and create Math model and then solve it with Python code. You will feel it 
 
 I have a real data in g sheet. Now change that in to list in python, then create a function in python that tells me if i am financially prepared. 
