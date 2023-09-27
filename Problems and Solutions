@@ -11,6 +11,11 @@ Count the number of whisle and when it reaches X - say 20. Vibrate in noise watc
 >Input basically is str so need to cast if we need to work with numbers.Eg input("a number");print(5*num) is diffrent from int(input(a number)) and print (5*num)
 >While loop  checks the condition - REPEATS UNTILL THE CONDITION IS FALSE
 >FOR loop is very strait forward for i in range(start,stop,step)
+For Vs While - For loop is bounded and end early using "break". While loop is unbounded and does not have default counter, Can say like while loop is the atomic version of FOR loop. 
+
+>
+
+
 
 
 --------------- Errors in Python --------------
