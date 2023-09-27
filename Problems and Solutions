@@ -14,7 +14,9 @@ Count the number of whisle and when it reaches X - say 20. Vibrate in noise watc
 For Vs While - For loop is bounded and end the loop early using "break". While loop is unbounded and does not have default counter, Can say like while loop is the atomic version of FOR loop. 
 
 >Strings are immutable
->
+>Few Methods in python - 
+
+Split (will split a strings with separator in to a LIST)-- eg
 
 
 
