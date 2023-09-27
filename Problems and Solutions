@@ -8,6 +8,7 @@ Count the number of whisle and when it reaches X - say 20. Vibrate in noise watc
 
 ----------- Intresting facts in python ------
 >when x=1 ; Str(x) is not equal to x ; x*3 gives 3 while str(x)*3 gives 111
+>Input basically is str so need to cast if we need to work with numbers.Eg input("a number");print(5*num) is diffrent from int(input(a number)) and print (5*num)
 >
 
 --------------- Errors in Python --------------
