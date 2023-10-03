@@ -25,6 +25,32 @@ Set() - this method is used for mathematical set operation like union intersecti
 
 
 
+def menu_is_boring(meals):
+    """Given a list of meals served over some period of time, return True if the
+    same meal has ever been served two days in a row, and False otherwise.
+    """
+    L2=[]
+    i= -2
+    for meal in meals:
+        i+=1
+        print (i)
+        if len(meals) ==2:
+            L2= return (meals[0]==meals[1])
+        elif meal == meals[i]:
+            L2.append(True)
+        else: 
+            L2.append(False)
+            print(meal)
+            print(meals[i])
+    return L2
+
+# Check your answer
+q3.check()
+meals1=["carrot","carrot","car","carrot","carrot",5,6,3]
+menu_is_boring(meals1)
+
+
+
 
 --------------- Errors in Python --------------
 
