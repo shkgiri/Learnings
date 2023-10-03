@@ -61,4 +61,9 @@ Sol - get_phone_bill(15.1) = 110 while get_phone_bill(14) = 100
 
 In this question, you'll work with a function get_labels() that takes the nutritional details about a food item and prints the needed warning labels. This function takes several inputs:
 
+6)You own a restaurant with five food dishes, organized in the Python list menu below. One day, you decide to:
+
+remove bean soup ('bean soup') from the menu, and
+add roasted beet salad ('roasted beet salad') to the menu.
+
 
