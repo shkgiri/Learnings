@@ -71,6 +71,11 @@ test_ratings = [1, 2, 3, 4, 5]
 test_liked = [i>=4 for i in test_ratings]
 print(test_liked)
 
-8
+8)In this question, you'll use this list comprehension to define a function percentage_liked() that takes one argument as input:
+
+ratings: list of ratings that people gave to a movie, where each rating is a number between 1-5, inclusive
+We say someone liked the movie, if they gave a rating of either 4 or 5. Your function should return the percentage of people who liked the movie.
+
+For instance, if we supply a value of [1, 2, 3, 4, 5, 4, 5, 1], then 50% (4/8) of the people liked the movie, and the function should return 0.5.
 
 
