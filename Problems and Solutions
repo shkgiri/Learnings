@@ -79,6 +79,7 @@ We say someone liked the movie, if they gave a rating of either 4 or 5. Your fun
 For instance, if we supply a value of [1, 2, 3, 4, 5, 4, 5, 1], then 50% (4/8) of the people liked the movie, and the function should return 0.5.
 
 9)Purple shell effect.
-
+The next iteration of Mario Kart will feature an extra-infuriating new item, the Purple Shell. When used, it warps the last place racer into first place and the first place racer into last place. Complete the function below to implement the Purple Shell's effect.
+10) List of list and find the 2nd member of last list. :)
 
 
