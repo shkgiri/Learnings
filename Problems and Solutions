@@ -19,7 +19,7 @@ For Vs While - For loop is bounded and end the loop early using "break". While l
 Split (will split a strings with separator in to a LIST)-- eg test="Shankar Murali";test.split()
 Set() - this method is used for mathematical set operation like union intersection etc
 
->Boolean - 3+True = 3 ;3+False = 0 (this will reduce code)
+>Boolean - 3*True = 3 ;3*False = 0 (this will reduce code)
 
 
 
