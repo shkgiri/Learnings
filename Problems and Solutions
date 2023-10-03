@@ -66,4 +66,11 @@ In this question, you'll work with a function get_labels() that takes the nutrit
 remove bean soup ('bean soup') from the menu, and
 add roasted beet salad ('roasted beet salad') to the menu.
 
+7) Createa a boolean from test rating
+test_ratings = [1, 2, 3, 4, 5]
+test_liked = [i>=4 for i in test_ratings]
+print(test_liked)
+
+8
+
 
