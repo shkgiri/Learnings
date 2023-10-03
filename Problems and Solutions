@@ -53,4 +53,12 @@ Step 3 - Chart it the way you wish.
 
 Eg ..I have a real data in g sheet. Now change that in to list in python, then create a function in python that tells me if i am financially prepared. --Done
 
+4) You work for a company that provides data services. For $100/month, your company provides 15 gigabytes (GB) of data. Then, any additional data is billed at $0.10/MB (or $100/GB, since 1,000 MB are in 1 GB).
+
+Sol - get_phone_bill(15.1) = 110 while get_phone_bill(14) = 100
+
+5)In Mexico, foods and beverages that are high in saturated fat, trans fat, sugar, sodium, and/or calories appear with warning labels that are designed to help consumers make healthy food choices.
+
+In this question, you'll work with a function get_labels() that takes the nutritional details about a food item and prints the needed warning labels. This function takes several inputs:
+
 
