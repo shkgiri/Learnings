@@ -20,8 +20,8 @@ Split (will split a strings with separator in to a LIST)-- eg test="Shankar Mura
 Set() - this method is used for mathematical set operation like union intersection etc
 
 >Boolean - 3*True = 3 ;3*False = 0 (this will reduce code)
->>List comprehension - squares = [n**2 for n in range(10)]; squares
-
+>>List comprehension - squares = [n**2 for n in range(10)]; squares another -- planet='PLUTO' ;[char+'! ' for char in planet]
+>>STRING METHODS - variable.lower() ; upper() ; Start index of a particular string claim.index('plan')
 
 
 
