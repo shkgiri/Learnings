@@ -20,6 +20,9 @@ Split (will split a strings with separator in to a LIST)-- eg test="Shankar Mura
 Set() - this method is used for mathematical set operation like union intersection etc
 
 >Boolean - 3*True = 3 ;3*False = 0 (this will reduce code)
+>>List comprehension - squares = [n**2 for n in range(10)]; squares
+
+
 
 
 
@@ -92,3 +95,6 @@ A guest is considered 'fashionably late' if they arrived after at least half of 
     same meal has ever been served two days in a row, and False otherwise.
 13) Black jack table - casino. 
 Monte claro method
+
+14)
+
