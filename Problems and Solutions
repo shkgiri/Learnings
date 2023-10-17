@@ -58,7 +58,7 @@ List is called by l[] and dictionaries are called by d={} and values of dictiona
 
 3)## calculate common words in a sentance ????????
 
-2) Am i financially prepared Program ---Done
+4) Am i financially prepared Program ---Done
 
 I am trying to develop "Am i prepared" with input from excel converted to list and from list as variable in to a mermaid Gaant chart using for loop. the final output is a gant chart + other logic applied to say "YES you are finanically great for 2025" etcc..
 //It seems there are limitations in Python list, where class is for rescue and that is applied in PYTM project. 
@@ -72,53 +72,54 @@ Step2 - create MerStory with list variables.
 Step 3 - Chart it the way you wish.
 
 
-3) How to see problems around with mathematical eyes and create Math model and then solve it with Python code. You will feel it 
+5) How to see problems around with mathematical eyes and create Math model and then solve it with Python code. You will feel it 
 
 Eg ..I have a real data in g sheet. Now change that in to list in python, then create a function in python that tells me if i am financially prepared. --Done
+
 ----Most of d below r from Kaggle Learning
-4) You work for a company that provides data services. For $100/month, your company provides 15 gigabytes (GB) of data. Then, any additional data is billed at $0.10/MB (or $100/GB, since 1,000 MB are in 1 GB).
+1) You work for a company that provides data services. For $100/month, your company provides 15 gigabytes (GB) of data. Then, any additional data is billed at $0.10/MB (or $100/GB, since 1,000 MB are in 1 GB).
 
 Sol - get_phone_bill(15.1) = 110 while get_phone_bill(14) = 100
 
-5)In Mexico, foods and beverages that are high in saturated fat, trans fat, sugar, sodium, and/or calories appear with warning labels that are designed to help consumers make healthy food choices.
+2)In Mexico, foods and beverages that are high in saturated fat, trans fat, sugar, sodium, and/or calories appear with warning labels that are designed to help consumers make healthy food choices.
 
 In this question, you'll work with a function get_labels() that takes the nutritional details about a food item and prints the needed warning labels. This function takes several inputs:
 
-6)You own a restaurant with five food dishes, organized in the Python list menu below. One day, you decide to:
+3)You own a restaurant with five food dishes, organized in the Python list menu below. One day, you decide to:
 
 remove bean soup ('bean soup') from the menu, and
 add roasted beet salad ('roasted beet salad') to the menu.
 
-7) Createa a boolean from test rating
+4) Createa a boolean from test rating
 test_ratings = [1, 2, 3, 4, 5]
 test_liked = [i>=4 for i in test_ratings]
 print(test_liked)
 
-8)In this question, you'll use this list comprehension to define a function percentage_liked() that takes one argument as input:
+5)In this question, you'll use this list comprehension to define a function percentage_liked() that takes one argument as input:
 
 ratings: list of ratings that people gave to a movie, where each rating is a number between 1-5, inclusive
 We say someone liked the movie, if they gave a rating of either 4 or 5. Your function should return the percentage of people who liked the movie.
 
 For instance, if we supply a value of [1, 2, 3, 4, 5, 4, 5, 1], then 50% (4/8) of the people liked the movie, and the function should return 0.5.
 
-9)Purple shell effect.
+6)Purple shell effect.
 The next iteration of Mario Kart will feature an extra-infuriating new item, the Purple Shell. When used, it warps the last place racer into first place and the first place racer into last place. Complete the function below to implement the Purple Shell's effect.
-10) List of list and find the 2nd member of last list. :)
+7) List of list and find the 2nd member of last list. :)
 
-11)fashionably late
+8)fashionably late
 We're using lists to record people who attended our party and what order they arrived in. For example, the following list represents a party with 7 guests, in which Adela showed up first and Ford was the last to arrive:
 
 party_attendees = ['Adela', 'Fleda', 'Owen', 'May', 'Mona', 'Gilbert', 'Ford']
 A guest is considered 'fashionably late' if they arrived after at least half of the party's guests. However, they must not be the very last guest (that's taking it too far). In the above example, Mona and Gilbert are the only guests who were fashionably late.
 
-12) Given a list of meals served over some period of time, return True if the
+9) Given a list of meals served over some period of time, return True if the
     same meal has ever been served two days in a row, and False otherwise.
-13) Black jack table - casino. 
+10) Black jack table - casino. 
 Monte claro method
 
-14)Check if the input to the function is a 5 digit zipcode. hint str.isdigit.
+11)Check if the input to the function is a 5 digit zipcode. hint str.isdigit.
 
-15)A researcher has gathered thousands of news articles. But she wants to focus her attention on articles including a specific word. Complete the function below to help her filter her list of articles.
+12)A researcher has gathered thousands of news articles. But she wants to focus her attention on articles including a specific word. Complete the function below to help her filter her list of articles.
 
 
 
