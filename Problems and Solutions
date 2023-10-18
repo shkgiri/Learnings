@@ -12,6 +12,7 @@ Count the number of whisle and when it reaches X - say 20. Vibrate in noise watc
 >>Meaning - you have all data about the business. what (happens) if datacenter fails, if cloud provider got breached, what is the loss, how much is  quantified terms. 
 >>I have the input and i have the expected result what will be the formula..
    In excel we have What-If Analysis option - Need to try what it gives.
+   
 
 ----------- Intresting facts in python ------
 >when x=1 ; Str(x) is not equal to x ; x*3 gives 3 while str(x)*3 gives 111
