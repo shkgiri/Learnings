@@ -77,7 +77,7 @@ Step 3 - Chart it the way you wish.
 
 Eg ..I have a real data in g sheet. Now change that in to list in python, then create a function in python that tells me if i am financially prepared. --Done
 
-----Most of d below r from Kaggle Learning
+----Most of d below r from Kaggle Learning & MIT
 1) You work for a company that provides data services. For $100/month, your company provides 15 gigabytes (GB) of data. Then, any additional data is billed at $0.10/MB (or $100/GB, since 1,000 MB are in 1 GB).
 
 Sol - get_phone_bill(15.1) = 110 while get_phone_bill(14) = 100
@@ -122,6 +122,8 @@ Monte claro method
 
 12)A researcher has gathered thousands of news articles. But she wants to focus her attention on articles including a specific word. Complete the function below to help her filter her list of articles.
 
+13) MIT Ps1 - Calculate Amount to save per month with intrest rate and salary increment.
+https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/mit6_0001f16_ps1/
 
 
 
