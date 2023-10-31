@@ -123,6 +123,7 @@ A guest is considered 'fashionably late' if they arrived after at least half of 
 10) Black jack table - casino. 
 Monte claro method
 
+
 11)Check if the input to the function is a 5 digit zipcode. hint str.isdigit.
 
 12)A researcher has gathered thousands of news articles. But she wants to focus her attention on articles including a specific word. Complete the function below to help her filter her list of articles.
