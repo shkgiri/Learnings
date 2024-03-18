@@ -1,0 +1,54 @@
+## The code for generating Pytm file. 
+
+import base64
+import matplotlib.pyplot as plt
+import re
+import csv
+import requests
+
+#Export as list from Excel
+
+listexcel=[]
+url="https://docs.google.com/spreadsheets/d/e/2PACX-1vQRLeq5hgW-G4BHkUGogz491J84jQnIsSlErA0Y_6BES9aqxVI1tS1iG6v609UhTu6kCpsa4rA-ytAk/pub?output=csv"
+listexcel2=[]
+urlcon="https://docs.google.com/spreadsheets/d/e/2PACX-1vQleb-WYh98SJwhO0pNTmNq6S9cHwPvC1cIqf-qKDfTTbBtT4xv0y_QPojPuECqzhCHz0r5vJHxl6Bd/pub?output=csv"
+
+response = requests.get(url)
+reader = csv.reader(response.content.decode('utf-8').splitlines())
+for row in reader:
+    listexcel.append(row)
+response.close()
+
+response2 = requests.get(urlcon)
+reader2 = csv.reader(response2.content.decode('utf-8').splitlines())
+for row in reader2:
+    listexcel2.append(row)
+response2.close()
+
+MerStory = """{Asset} = {Type}("{Name}")
+"""
+temp_variable = ""
+for i in range(len(listexcel)):
+  
+  if (i >0):
+      temp_variable= temp_variable+re.sub(r"{Asset}", str(listexcel[i][0]), MerStory)
+      temp_variable= re.sub(r"{Type}", str(listexcel[i][1]), temp_variable)
+      temp_variable= re.sub(r"{Name}", str(listexcel[i][2]), temp_variable)      
+
+MerStory2 = """{ConnectionName} = {Type}({From},{To},"{Description}")
+"""
+
+for i in range(len(listexcel2)):
+  
+  if (i >0):
+      temp_variable= temp_variable+re.sub(r"{ConnectionName}", str(listexcel2[i][0]), MerStory2)
+      temp_variable= re.sub(r"{Type}", str(listexcel2[i][1]), temp_variable)
+      temp_variable= re.sub(r"{From}", str(listexcel2[i][2]), temp_variable)
+      temp_variable= re.sub(r"{To}", str(listexcel2[i][3]), temp_variable)
+      temp_variable= re.sub(r"{Description}", str(listexcel2[i][4]), temp_variable)
+
+MerStory3 = """
+if __name__ == "__main__":
+    tm.process()
+"""
+print (temp_variable+MerStory3)
