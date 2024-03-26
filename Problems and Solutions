@@ -12,7 +12,13 @@ Count the number of whisle and when it reaches X - say 20. Vibrate in noise watc
 >>Meaning - you have all data about the business. what (happens) if datacenter fails, if cloud provider got breached, what is the loss, how much is  quantified terms. 
 >>I have the input and i have the expected result what will be the formula..
    In excel we have What-If Analysis option - Need to try what it gives.
-   
+5) Web UI for Python Applicaion or Code you work on.
+we have to use Python Flask for this. 
+If you are using Anaconda in windows, we have to create a web directory and create a file called app.py and with in that another directory called templates, within that home.htmls.
+open the location of python.exe and execute it with the path of app.py then the console will openup with local url with port. You are done. 
+
+
+
 ------------- My Actions ----------
 I need  contribute meaningfully to people around and bring REAL change.
 With that in mind, Have decided to allocate few hours every day for next 10 days (Check out the link - Caledly)
