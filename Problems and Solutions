@@ -17,7 +17,8 @@ we have to use Python Flask for this.
 If you are using Anaconda in windows, we have to create a web directory and create a file called app.py and with in that another directory called templates, within that home.htmls.
 open the location of python.exe and execute it with the path of app.py then the console will openup with local url with port. You are done. 
 
-
+6) Build some analytical application on top of Azure Event HUB. You ingest all data to event hub. You can have Kafka, where only usecase related logs/events are passed to your 
+Analytical appication. 
 
 ------------- My Actions ----------
 I need  contribute meaningfully to people around and bring REAL change.
